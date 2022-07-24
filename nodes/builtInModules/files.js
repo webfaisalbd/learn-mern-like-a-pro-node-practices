@@ -3,8 +3,8 @@ const log = console.log;
 
 // log(fs);
 
-fs.writeFileSync("file1.txt", "Hello World!");
-log('writing done');
+// fs.writeFileSync("file1.txt", "Hello World!");
+// log('writing done');
 
 
 // run it in terminal 
@@ -14,3 +14,9 @@ log('writing done');
 // run it again in terminal
 // cat file1.txt 
 // output : Hello World! 
+
+
+fs.writeFile("file2.txt","Hello Mern developers",()=> {
+    log("inside of callback")
+});
+log("writing file done")
