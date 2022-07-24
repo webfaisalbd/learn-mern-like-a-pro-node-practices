@@ -1,5 +1,6 @@
 ### Node project run
-- inside the package.json 
+- inside the package.json
+- we can run it different ways like  
 
 - first way to run
 <p align='center'>
