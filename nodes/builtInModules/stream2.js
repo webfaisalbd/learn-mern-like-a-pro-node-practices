@@ -1,2 +1,6 @@
 const {stdin, stdout} = require('process');
-stdin.pipe(stdout);
+const fs = require('fs');
+
+const writableStream = fs.createWriteStream("./streams/output.txt");
+
+stdin.pipe(writableStream);

@@ -1,0 +1,2 @@
+Hello,
+In this file, we write a text in command line and it will save on output.txt file
